@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Riot&display=swap');
+
+header{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ background-color: rgb(249, 234, 240); 
+    width: 100%;
+} 
+
+header a{ 
+    text-decoration: none;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: rgb(212, 0, 127);
+ }
+ header ul li { 
+    font-size: 30px;
+ margin: 40px;
+ margin-top: 150px;
+ }
+ .logo{
+    width: 350px;
+    margin-left: 190px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+img{
+    width: 300px;  
+} 
+h1{
+    font-size: 44px;
+    color: rgb(255, 255, 255);
+    font-family: "Protest Riot", sans-serif;
+} 
+p{
+    font-size: 34px;
+    color: rgb(254, 254, 254);
+} 
+.menu{ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.contenedor{
+display: flex;
+flex-direction: row;
+width: 100%;
+margin: 10px 0 10px 0;
+background-color: rgb(251, 87, 161);
+}
+.caja{ 
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img{
+    border-radius: 50%;
+ }
+ .caja p{ 
+    font-size: 18px;
+ }
+ .presentacion { 
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin: 30px;
+   background-color: rgb(251, 87, 161);
+ }
+ .contenedor2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(251, 87, 161);
+    }
+    .caja2{ 
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .caja2 img{
+        border-radius: 50%;
+     }
+     .caja2 p{ 
+        font-size: 18px;
+     }
+.footer{
+    background-color: rgb(251, 87, 161);
+}
+.ubicacion{
+    margin: 50px;
+    margin-left: 125px;
+}
